@@ -15,8 +15,6 @@ Opt("WinTitleMatchMode", 2)
 ; Run SSDPower.exe
 Local $iPID = ShellExecute ("SSDPower.exe", " conf.txt data", "", "", @SW_MINIMIZE)
 ShellExecuteWait ("test.bat")
-; Wait for 2 seconds.
-;Sleep(2000)
 WinActivate ("SSDPower.exe")
 WinWaitActive("SSDPower.exe")
 Send ("s")
