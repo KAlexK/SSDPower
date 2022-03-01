@@ -1,5 +1,5 @@
 # SSDPower
- Measurement of SSD M.2 power consumption.
+ Measurement of power consumption of PCIe SSD with M.2 connector.
  
  Schematic diagram:
  ![Schematic diagram](https://github.com/KAlexK/SSDPower/blob/main/pics/circuit.png)
